@@ -1,4 +1,4 @@
-class ApplicationController < ActionController::exi
+class ApplicationController < ActionController::Base
   def hello
     render html: "hello, world!"
   end
